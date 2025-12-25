@@ -1,0 +1,16 @@
+{
+  "name": "charity-dapp",
+  "version": "1.0.0",
+  "description": "Charity DApp with Move Smart Contracts",
+  "private": true,
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-frontend": "cd frontend && npm install --legacy-peer-deps",
+    "install-move": "cd move && sui move build"
+  },
+  "workspaces": [
+    "frontend",
+    "move"
+  ]
+}

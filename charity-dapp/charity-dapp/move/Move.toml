@@ -1,0 +1,13 @@
+[package]
+name = "charity"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+charity = "0x0"
+
+[dev-addresses]
+charity = "0x0"
